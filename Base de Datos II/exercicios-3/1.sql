@@ -1,0 +1,1 @@
+select count(Name) from country; /*1*/
