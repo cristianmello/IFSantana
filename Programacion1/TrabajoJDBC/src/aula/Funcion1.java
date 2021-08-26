@@ -6,7 +6,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
- class Funcion1 {
+class Funcion1 {
 
 	public static final String obrigatorio = "?autoReconnect=true&useSSL=false&&serverTimezone=UTC";
 	public static final String url = "jdbc:mysql://127.0.0.1/trabJDBC" + obrigatorio;
@@ -23,16 +23,16 @@ import java.sql.Statement;
 
 			ResultSetMetaData metaData = resultSet.getMetaData();
 
-			// retorna o nï¿½mero de colunas
+			// retorna o número de colunas
 			int numeroColunas = metaData.getColumnCount();
 
-			// gera o cabeï¿½alho de uma tabela com o nome das colunas vindas do banco
+			// gera o cabeçalho de uma tabela com o nome das colunas vindas do banco
 			for (int i = 1; i <= numeroColunas; i++) {
 				System.out.printf("%-8s\t", metaData.getColumnName(i));
 			}
 			System.out.println();
 
-			// imprime os conteï¿½dos dos objetos vindos do banco
+			// imprime os conteúdos dos objetos vindos do banco
 			while (resultSet.next()) {
 				for (int i = 1; i <= numeroColunas; i++) {
 					System.out.printf("%-8s\t", resultSet.getObject(i));

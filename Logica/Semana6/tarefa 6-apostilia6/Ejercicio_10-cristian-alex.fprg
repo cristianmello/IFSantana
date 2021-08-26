@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-25 08:13:47 p. m."/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yMjswODoyOTowMCBwLiBtLjsyOTQ3"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yNTswODoxMzo0NyBwLiBtLjsyOzMwNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso, mayorPeso, menorPeso, altura, mayorAltura, menorAltura" type="Real" array="False" size=""/>
+            <declare name="edad, mayorEdad, menorEdad, personas" type="Integer" array="False" size=""/>
+            <input variable="peso"/>
+            <input variable="edad"/>
+            <input variable="altura"/>
+            <assign variable="mayorEdad" expression="0"/>
+            <assign variable="menorEdad" expression="1000"/>
+            <assign variable="mayorPeso" expression="0"/>
+            <assign variable="menorPeso" expression="1000"/>
+            <assign variable="mayorAltura" expression="0"/>
+            <assign variable="menorAltura" expression="1000"/>
+            <assign variable="personas" expression="0"/>
+            <while expression="personas &lt;= 100">
+                <if expression="peso&gt;mayorPeso">
+                    <then>
+                        <assign variable="mayorPeso" expression="peso"/>
+                        <if expression="peso&lt;menorPeso">
+                            <then>
+                                <assign variable="menorPeso" expression="peso"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="edad&gt;mayorEdad">
+                    <then>
+                        <assign variable="mayorEdad" expression="edad"/>
+                        <if expression="edad&lt;menorEdad">
+                            <then>
+                                <assign variable="menorEdad" expression="Edad"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="altura&gt;mayorAltura">
+                    <then>
+                        <assign variable="mayorAltura" expression="altura"/>
+                        <if expression="altura&lt;menorAltura">
+                            <then>
+                                <assign variable="menorAltura" expression="altura"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="personas" expression="personas + 1"/>
+                <assign variable="peso" expression="peso+1"/>
+                <assign variable="altura" expression="altura+1"/>
+                <assign variable="edad" expression="edad+1"/>
+            </while>
+            <output expression="mayorPeso" newline="True"/>
+            <output expression="menorPeso" newline="True"/>
+            <output expression="mayorEdad" newline="True"/>
+            <output expression="menorEdad" newline="True"/>
+            <output expression="mayorAltura" newline="True"/>
+            <output expression="menorAltura" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

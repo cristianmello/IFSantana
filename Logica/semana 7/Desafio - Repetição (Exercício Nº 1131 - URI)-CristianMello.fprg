@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-01 04:30:19 p. m."/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMi0wMTswMzoxNjozMiBwLiBtLjsyOTQx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMi0wMTswNDozMDoxOSBwLiBtLjsyOzMwNTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="golesInter, golesGremio, inter, gremio, empate, novoGrenal, cantGrenales" type="Integer" array="False" size=""/>
+            <assign variable="inter" expression="0"/>
+            <assign variable="gremio" expression="0"/>
+            <assign variable="empate" expression="0"/>
+            <output expression="&quot;goles inter: &quot;" newline="True"/>
+            <input variable="golesInter"/>
+            <output expression="&quot;goles gremio: &quot;" newline="True"/>
+            <input variable="golesGremio"/>
+            <if expression="golesInter = golesGremio">
+                <then>
+                    <assign variable="empate" expression="empate + 1"/>
+                </then>
+                <else>
+                    <if expression="golesGremio&gt;golesInter">
+                        <then>
+                            <assign variable="gremio" expression="1"/>
+                        </then>
+                        <else>
+                            <assign variable="inter" expression="1"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Novo grenal 1-sim 2-nao&quot;" newline="True"/>
+            <input variable="novoGrenal"/>
+            <assign variable="cantGrenales" expression="1"/>
+            <if expression="novoGrenal == 1">
+                <then>
+                    <while expression="novoGrenal == 1">
+                        <output expression="&quot;goles inter: &quot;" newline="True"/>
+                        <input variable="golesInter"/>
+                        <output expression="&quot;goles gremio: &quot;" newline="True"/>
+                        <input variable="golesGremio"/>
+                        <if expression="golesGremio = golesInter">
+                            <then>
+                                <assign variable="empate" expression="empate + 1"/>
+                            </then>
+                            <else>
+                                <if expression="golesGremio&gt;golesInter">
+                                    <then>
+                                        <assign variable="gremio" expression="gremio + 1"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="inter" expression="inter + 1"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                        <assign variable="cantGrenales" expression="cantGrenales + 1"/>
+                        <output expression="&quot;Novo grenal 1-sim 2-nao&quot;" newline="True"/>
+                        <input variable="novoGrenal"/>
+                    </while>
+                </then>
+                <else/>
+            </if>
+            <output expression="gremio" newline="True"/>
+            <output expression="inter" newline="True"/>
+            <output expression="empate" newline="True"/>
+            <output expression="cantGrenales" newline="True"/>
+            <if expression="gremio = inter">
+                <then>
+                    <output expression="&quot;N&#227;o houve vencedor&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="gremio &gt; inter">
+                        <then>
+                            <output expression="&quot;gremio ganhou mais grenais&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Inter ganhou mais grenais&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

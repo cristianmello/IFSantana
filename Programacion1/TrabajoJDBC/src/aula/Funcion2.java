@@ -31,6 +31,7 @@ class Funcion2 {
 
 			
 			// seleciona todos os produtos do banco e imprime.
+
 			Statement select = conexao.createStatement();
 			ResultSet resultSet = select.executeQuery(sql);
 			ResultSetMetaData metaData = resultSet.getMetaData();
@@ -42,7 +43,7 @@ class Funcion2 {
 				}
 				System.out.println();
 			}
-			// encerra as conexï¿½es o objetos
+			// encerra as conexões o objetos
 			conexao.close();
 			insert.close();
 			select.close();

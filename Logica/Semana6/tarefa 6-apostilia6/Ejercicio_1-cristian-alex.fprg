@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-25 09:14:11 p. m."/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yMjswODoxNTo1NyBwLiBtLjsyOTU0"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yNTswOToxNDoxMSBwLiBtLjszOzMwNTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeros, numero2, contador, total" type="Integer" array="False" size=""/>
+            <assign variable="numeros" expression="30"/>
+            <assign variable="contador" expression="0"/>
+            <assign variable="total" expression="0"/>
+            <while expression="contador&lt;numeros">
+                <output expression="&quot;Ingrese un n&#250;mero: &quot;" newline="True"/>
+                <input variable="numero2"/>
+                <assign variable="total" expression="total + numero2"/>
+                <assign variable="contador" expression="contador + 1"/>
+            </while>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

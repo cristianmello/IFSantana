@@ -7,7 +7,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-class  Funcion5 {
+class Funcion5 {
 
 	public void buscarProduto(String nome) throws SQLException {
 
@@ -31,7 +31,7 @@ class  Funcion5 {
 				}
 				System.out.println();
 			}
-			// encerra as conexï¿½es o objetos
+			// encerra as conexões o objetos
 			conexao.close();
 			search.close();
 			select.close();

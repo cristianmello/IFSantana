@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-22 10:37:43 p. m."/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yMjsxMDoxNzowMiBwLiBtLjsyOTM5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVQ4VjNNNlA7MjAyMC0xMS0yMjsxMDozNzo0MyBwLiBtLjsxOzMwNTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, m, g, gg, camisetas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la cantidad de camisetas de tama&#241;o P: &quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Ingrese la cantidad de camisetas de tama&#241;o M: &quot;" newline="True"/>
+            <input variable="m"/>
+            <output expression="&quot;Ingrese la cantidad de camisetas de tama&#241;o G: &quot;" newline="True"/>
+            <input variable="g"/>
+            <output expression="&quot;Ingrese la cantidad de camisetas de tama&#241;o GG: &quot;" newline="True"/>
+            <input variable="gg"/>
+            <assign variable="camisetas" expression="p+m+g+gg"/>
+            <if expression="camisetas=500">
+                <then>
+                    <output expression="p" newline="True"/>
+                    <output expression="m" newline="True"/>
+                    <output expression="g" newline="True"/>
+                    <output expression="gg" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;En total debe haber 500 camisetas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

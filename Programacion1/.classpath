@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="PruebaEvaluativa/Prueba/src"/>
+	<classpathentry kind="src" path="Trabajo 6/Ejercicio1/src"/>
+	<classpathentry kind="src" path="Trabajo1/src"/>
+	<classpathentry kind="src" path="trabajo2/ejercicio1/src"/>
+	<classpathentry kind="src" path="trabajo2/ejercicio2/src"/>
+	<classpathentry kind="src" path="trabajo2/ejercicio3/src"/>
+	<classpathentry kind="src" path="trabajo2/ejercicio4/src"/>
+	<classpathentry kind="src" path="trabajo2/ejercicio5/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio1/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio2/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio3/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio4/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio5/src"/>
+	<classpathentry kind="src" path="Trabajo3/Ejercicio6/src"/>
+	<classpathentry kind="src" path="Trabajo4/Ejercicio1/src"/>
+	<classpathentry kind="src" path="Trabajo4/Ejercicio2/src"/>
+	<classpathentry kind="src" path="Trabajo4/Ejercicio3/src"/>
+	<classpathentry kind="src" path="Trabajo4/Ejercicio4/src"/>
+	<classpathentry kind="src" path="Trabajo7/Tarea7/src"/>
+	<classpathentry kind="src" path="Trabajo8/Ejercicio8/src"/>
+	<classpathentry kind="src" path="TrabajoJDBC/src"/>
+	<classpathentry kind="src" path="TrabajoJDBC/TrabajoJDBC/src"/>
+	<classpathentry kind="output" path="TrabajoJDBC/TrabajoJDBC/bin"/>
+</classpath>

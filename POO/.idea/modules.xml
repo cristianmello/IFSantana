@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula03-ejercicios/Aula03-ejercicios.iml" filepath="$PROJECT_DIR$/Aula03-ejercicios/Aula03-ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04-ejercicios/Aula04-ejercicios.iml" filepath="$PROJECT_DIR$/Aula04-ejercicios/Aula04-ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Avaliação 1 - Parte 2/Avaliação 1 - Parte 2.iml" filepath="$PROJECT_DIR$/Avaliação 1 - Parte 2/Avaliação 1 - Parte 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEjercicios01/Ejercicio Diagrama/Ejercicio Diagrama.iml" filepath="$PROJECT_DIR$/ListaEjercicios01/Ejercicio Diagrama/Ejercicio Diagrama.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI-ProjetoOficina-CristianMello/GUI-ProjetoOficina-CristianMello.iml" filepath="$PROJECT_DIR$/GUI-ProjetoOficina-CristianMello/GUI-ProjetoOficina-CristianMello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula02-ejercicios/actividad1/actividad1.iml" filepath="$PROJECT_DIR$/aula02-ejercicios/actividad1/actividad1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula02-ejercicios/actividad2/actividad2.iml" filepath="$PROJECT_DIR$/aula02-ejercicios/actividad2/actividad2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula01-ejercicios/aula01-ejercicios.iml" filepath="$PROJECT_DIR$/aula01-ejercicios/aula01-ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEjercicios01/ejercicio1,2,3,4/ejercicio1,2,3,4.iml" filepath="$PROJECT_DIR$/ListaEjercicios01/ejercicio1,2,3,4/ejercicio1,2,3,4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaEjercicios01/ejercicio5-11/ejercicio5-11.iml" filepath="$PROJECT_DIR$/ListaEjercicios01/ejercicio5-11/ejercicio5-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerFix/exerFix.iml" filepath="$PROJECT_DIR$/exerFix/exerFix.iml" />
+    </modules>
+  </component>
+</project>

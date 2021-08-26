@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MySQLDriver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GUI-ProjetoOficina-CristianMello/lib/MySQLDriver/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GUI-ProjetoOficina-CristianMello/lib/MySQLDriver/mysql-connector-java-8.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

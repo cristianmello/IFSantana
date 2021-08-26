@@ -1,0 +1,68 @@
+1)
+Inicio
+Real numero1, numero2, producto
+leer (numero1)
+leer(numero2)
+producto = numero1*numero2
+escribir ("El producto de los numeros: " + numero1 + " y " + numero2 " es de: " + producto)
+Fin
+
+2)Inicio
+entero: persona1, persona3, persona3
+real:media
+leer(persona1)
+leer(persona2)
+leer(persona3)
+media = (persona1+persona2+persona3)/3
+fin
+
+3)Inicio
+Real numero1, numero2, division, multiplicacion, suma, resta
+leer (numero1)
+leer(numero2)
+division= numero1/numero2
+multiplicacion = numero1 * numero2
+suma = numero1 + numero2
+resta = numero1 - numero2
+escribir ("La division, multiplicacion, suma y resta de los numeros es de : " + division + ", " + multiplicacion ", " + suma + ", " + resta +", correspondientemente.")
+Fin
+
+4)Inicio 
+real:A,B
+leer A
+leer B
+A = B
+B = A
+escribir (A, B)
+fin
+
+5)Inicio
+real: gradosFahr, gradosCent
+leer gradosFahr
+gradosCent = 5/8 * (gradosFahr - 32)
+Fin
+
+6)Inicio
+entero:numeroCuenta
+real:lecturaAnterior, lecturaActual, valorPagar
+Escribir(Escriba su numero de cuenta: ")
+leer(numeroCuenta)
+escribir("Su lectura anterior: ")
+leer(lecturaAnterior)
+escribir("Su lectura actual: ")
+leer(lecturaActual)
+valorPago = 
+
+7)Inicio 
+caracter: matricula
+real: nota1, nota2, nota3, mediaponderada
+Escribir("escriba su matricula: ")
+Leer (matricula)
+Escribir("digite su primer nota: ")
+leer(nota1)
+Escribir("digite su segunda nota: ")
+leer(nota2)
+Escribir("digite su tercer nota: ")
+leer(nota3)
+mediaponderada= (nota1*2+nota2*3+nota3*4)/9
+Escribir ("su matricula es: " + matricula + "y su media es de: " + mediaponderada
